@@ -13,7 +13,7 @@ const Hero = () => {
           <p className="text-rose-500 font-black text-3xl sm:text-4xl md:text-5xl my-5">
             Ihr Pflegedienst
           </p>
-          <p className="text-black text-lg sm:text-xl my-5 sm:w-4/5 md:w-2/3 lg:w-1/2  font-medium">
+          <p className="text-gray-500 text-lg sm:text-xl my-5 sm:w-4/5 md:w-2/3 lg:w-1/2  font-medium">
             Zuhause gepflegt, mit Liebe und Respekt: Bei uns steht der Mensch im
             Mittelpunkt, umgeben von Fürsorge und Verständnis.
           </p>
