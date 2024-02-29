@@ -222,6 +222,7 @@ const ContactForm = () => {
                 placeholder="Geburtsdatum"
                 onChange={handleChange}
                 value={formData.geburtsdatum}
+                className="bg-white"
               />
               {formErrors.geburtsdatum && (
                 <p className="error-message">Geben sie ihr Geburtsdatum an</p>
