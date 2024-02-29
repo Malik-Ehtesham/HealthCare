@@ -20,6 +20,7 @@ const ContactForm = () => {
     Telefonnummer: "",
     Postleitzahl: "",
     Addresse: "",
+    geburtsdatum: "",
   });
 
   const [formErrors, setFormErrors] = useState({
@@ -222,7 +223,7 @@ const ContactForm = () => {
                 placeholder="Geburtsdatum"
                 onChange={handleChange}
                 value={formData.geburtsdatum}
-                className="bg-white"
+                className="bg-white text-gray-600"
               />
               {formErrors.geburtsdatum && (
                 <p className="error-message">Geben sie ihr Geburtsdatum an</p>
