@@ -20,9 +20,9 @@ const ContactForm = () => {
     Telefonnummer: "",
     Postleitzahl: "",
     Addresse: "",
-    geburtsdatum: new Date().toISOString().split("T")[0],
+    // geburtsdatum: "",
   });
-
+  const [date, setDate] = useState(new Date().toISOString().split("T")[0]);
   const [formErrors, setFormErrors] = useState({
     Vorname: false,
     Nachname: false,
@@ -30,7 +30,7 @@ const ContactForm = () => {
     Telefonnummer: false,
     Postleitzahl: false,
     Addresse: false,
-    geburtsdatum: false,
+    // geburtsdatum: false,
   });
 
   const handleChange = (e) => {
@@ -78,7 +78,7 @@ const ContactForm = () => {
           Telefonnummer: "",
           Postleitzahl: "",
           Addresse: "",
-          geburtsdatum: new Date().toISOString().split("T")[0],
+          // geburtsdatum: "",
         });
       } else {
         showNotification(
@@ -124,7 +124,7 @@ const ContactForm = () => {
               height="450"
               allowfullscreen=""
               loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade"
+              referrerPolicy="no-referrer-when-downgrade"
             ></iframe>
           </div>
           <div className="right row">
@@ -219,17 +219,17 @@ const ContactForm = () => {
                 <p className="error-message">Geben sie ihre Addresse an</p>
               )}
 
-              <div className="relative">
-                {/* <p className="absolute top-50 m-2 mt-3">GRADSS</p> */}
-                <input
-                  type="date"
-                  name="Geburtsdatum"
-                  placeholder="Geburtsdatum"
-                  onChange={handleChange}
-                  value={formData.geburtsdatum}
-                  // className="bg-white text-gray-600"
-                />
-              </div>
+              {/* <div className="relative"> */}
+              {/* <p className="absolute top-50 m-2 mt-3">GRADSS</p> */}
+              <input
+                type="date"
+                name="Geburtsdatum"
+                placeholder="Geburtsdatum"
+                onChange={(e) => setDate(e.target.value)}
+                value={date}
+                // className="bg-white text-gray-600"
+              />
+              {/* </div> */}
               {formErrors.geburtsdatum && (
                 <p className="error-message">Geben sie ihr Geburtsdatum an</p>
               )}
