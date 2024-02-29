@@ -3,6 +3,17 @@
   width: 100%;
 }
 
+.home-page {
+  /* Set background properties */
+  background-image: url("/public/images/home-bg.png"); /* Replace with your image path */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  /* width: f; */
+
+  /* Other styles like background position, repeat, etc., can be added as needed */
+}
+
 #text-overlay {
   position: absolute;
   top: 55%;
