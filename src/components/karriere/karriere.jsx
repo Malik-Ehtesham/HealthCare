@@ -20,6 +20,7 @@ const ContactForm = () => {
     Telefonnummer: "",
     Postleitzahl: "",
     Addresse: "",
+    geburtsdatum: "mm/dd/yyyy",
   });
 
   const [formErrors, setFormErrors] = useState({
