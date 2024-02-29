@@ -15,6 +15,7 @@ const Hero = () => {
           autoPlay
           loop
           muted
+          playsInline
         >
           <source src="./images/background.mp4" type="video/mp4" />
           Your browser does not support the video tag.
