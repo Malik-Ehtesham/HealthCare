@@ -220,7 +220,7 @@ const ContactForm = () => {
               )}
 
               <input
-                type="text"
+                type="date"
                 name="Geburtsdatum"
                 placeholder="Geburtsdatum"
                 onChange={handleChange}
