@@ -22,7 +22,7 @@ const Navbar = (props) => {
             <li className=" transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-300  flex  items-center   ">
               <Link
                 to="/"
-                className="hover:bg-transparent text-base xl:text-lg text-white hover:text-yellow-400 font-semibold  py-3 px-1.5 xl:px-4 rounded-full"
+                className="hover:bg-transparent text-base xl:text-lg text-white  font-semibold  py-3 px-1.5 xl:px-4 rounded-full"
               >
                 Home
               </Link>
@@ -30,7 +30,7 @@ const Navbar = (props) => {
             <li className=" transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-300  flex  items-center  ">
               <Link
                 to="/about"
-                className="hover:bg-transparent text-base xl:text-lg text-white hover:text-yellow-400 font-semibold  py-3 px-1.5 xl:px-4 rounded-full "
+                className="hover:bg-transparent text-base xl:text-lg text-white  font-semibold  py-3 px-1.5 xl:px-4 rounded-full "
               >
                 Über Uns
               </Link>
@@ -38,14 +38,14 @@ const Navbar = (props) => {
             <li className=" transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-300  flex  items-center  ">
               <Link
                 to="/courses"
-                className="hover:bg-transparent text-base xl:text-lg text-white hover:text-yellow-400 font-semibold  py-3 px-1.5 xl:px-4 rounded-full"
+                className="hover:bg-transparent text-base xl:text-lg text-white  font-semibold  py-3 px-1.5 xl:px-4 rounded-full"
               >
                 Leistungen
               </Link>
             </li>
             <li className="  ">
               <details className="dropdown  ">
-                <summary className="m-1 btn bg-inherit hover:bg-transparent border-0  text-base xl:text-lg text-white hover:text-yellow-400 font-semibold  py-3 px-1.5 xl:px-4 rounded-full transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-300  flex  items-center">
+                <summary className="m-1 btn bg-inherit hover:bg-transparent border-0  text-base xl:text-lg text-white  font-semibold  py-3 px-1.5 xl:px-4 rounded-full transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-300  flex  items-center">
                   Pflegeinformation
                 </summary>
                 <ul className="p-2 shadow menu dropdown-content z-[1] bg-base-100 rounded-box w-52">
@@ -81,7 +81,7 @@ const Navbar = (props) => {
             <li className=" transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-300  flex  items-center  ">
               <Link
                 to="/Vollmacht"
-                className=" hover:bg-transparent text-base xl:text-lg text-white hover:text-yellow-400 font-semibold  py-3 px-1.5 xl:px-4 rounded-full"
+                className=" hover:bg-transparent text-base xl:text-lg text-white  font-semibold  py-3 px-1.5 xl:px-4 rounded-full"
               >
                 Vollmachten
               </Link>
@@ -89,7 +89,7 @@ const Navbar = (props) => {
             <li className=" transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-300  flex  items-center  ">
               <Link
                 to="/team"
-                className="hover:bg-transparent text-base xl:text-lg text-white hover:text-yellow-400 font-semibold  py-3 px-1.5 xl:px-4 rounded-full"
+                className="hover:bg-transparent text-base xl:text-lg text-white  font-semibold  py-3 px-1.5 xl:px-4 rounded-full"
               >
                 Team
               </Link>
@@ -97,7 +97,7 @@ const Navbar = (props) => {
             <li className=" transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-300  flex  items-center  ">
               <Link
                 to="/karriere"
-                className="hover:bg-transparent text-base xl:text-lg text-white hover:text-yellow-400 font-semibold  py-3 px-1.5 xl:px-4 rounded-full"
+                className="hover:bg-transparent text-base xl:text-lg text-white  font-semibold  py-3 px-1.5 xl:px-4 rounded-full"
               >
                 Karriere
               </Link>
@@ -105,7 +105,7 @@ const Navbar = (props) => {
             <li className=" transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-300  flex  items-center  ">
               <Link
                 to="/contact"
-                className="hover:bg-transparent text-base xl:text-lg text-white hover:text-yellow-400 font-semibold  py-3 px-1.5 xl:px-4 rounded-full"
+                className="hover:bg-transparent text-base xl:text-lg text-white  font-semibold  py-3 px-1.5 xl:px-4 rounded-full"
               >
                 Kontakt
               </Link>
