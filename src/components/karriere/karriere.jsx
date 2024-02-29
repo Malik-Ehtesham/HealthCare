@@ -20,7 +20,7 @@ const ContactForm = () => {
     Telefonnummer: "",
     Postleitzahl: "",
     Addresse: "",
-    geburtsdatum: "GRSPES",
+    geburtsdatum: new Date().toISOString().split("T")[0],
   });
 
   const [formErrors, setFormErrors] = useState({
@@ -78,7 +78,7 @@ const ContactForm = () => {
           Telefonnummer: "",
           Postleitzahl: "",
           Addresse: "",
-          geburtsdatum: "mm/dd/yyyy",
+          geburtsdatum: new Date().toISOString().split("T")[0],
         });
       } else {
         showNotification(
@@ -219,14 +219,17 @@ const ContactForm = () => {
                 <p className="error-message">Geben sie ihre Addresse an</p>
               )}
 
-              <input
-                type="date"
-                name="Geburtsdatum"
-                placeholder="Geburtsdatum"
-                onChange={handleChange}
-                value={formData.geburtsdatum}
-                // className="bg-white text-gray-600"
-              />
+              <div className="relative">
+                {/* <p className="absolute top-50 m-2 mt-3">GRADSS</p> */}
+                <input
+                  type="date"
+                  name="Geburtsdatum"
+                  placeholder="Geburtsdatum"
+                  onChange={handleChange}
+                  value={formData.geburtsdatum}
+                  // className="bg-white text-gray-600"
+                />
+              </div>
               {formErrors.geburtsdatum && (
                 <p className="error-message">Geben sie ihr Geburtsdatum an</p>
               )}
