@@ -30,6 +30,7 @@ const ContactForm = () => {
     Telefonnummer: false,
     Postleitzahl: false,
     Addresse: false,
+    geburtsdatum: false,
   });
 
   const handleChange = (e) => {
@@ -77,6 +78,7 @@ const ContactForm = () => {
           Telefonnummer: "",
           Postleitzahl: "",
           Addresse: "",
+          geburtsdatum: "mm/dd/yyyy",
         });
       } else {
         showNotification(

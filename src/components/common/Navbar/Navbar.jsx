@@ -9,11 +9,7 @@ const Navbar = (props) => {
         props.page === "Home" ? "absolute" : ""
       } top-0 w-full z-10`}
     >
-      <p
-        className={`text-3xl font-black ${
-          props.page === "Home" ? "text-white" : "text-black"
-        }  p-4`}
-      >
+      <p className={`text-3xl font-black  text-black  p-4`}>
         PFLEGEDIENST MALIK
       </p>
       <div className=" bg-rose-600 flex justify-between">
