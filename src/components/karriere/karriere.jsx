@@ -20,7 +20,7 @@ const ContactForm = () => {
     Telefonnummer: "",
     Postleitzahl: "",
     Addresse: "",
-    geburtsdatum: "mm/dd/yyyy",
+    geburtsdatum: "GRSPES",
   });
 
   const [formErrors, setFormErrors] = useState({
