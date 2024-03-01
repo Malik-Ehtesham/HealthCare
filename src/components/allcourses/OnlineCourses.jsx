@@ -9,6 +9,7 @@ import FirstImage from "/images/JP.webp";
 import SecondImage from "/images/c.webp";
 import ThirdImage from "/images/BA.webp";
 import FourthImage from "/images/b.webp";
+import FifthImage from "/images/HC.jpg";
 
 const OnlineCourses = () => {
   return (
@@ -50,7 +51,7 @@ const OnlineCourses = () => {
             <Link to="/Care">
               <CourseCard
                 title="Pflege- und Haushaltsmanagement nach §45b SGB XI"
-                image={FourthImage}
+                image={FifthImage}
               />
             </Link>
           </div>{" "}

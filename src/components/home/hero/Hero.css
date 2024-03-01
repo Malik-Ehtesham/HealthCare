@@ -5,10 +5,10 @@
 
 .home-page {
   /* Set background properties */
-  background-image: url("/public/images/home-bg3.jpg"); /* Replace with your image path */
+  background-image: url("/public/images/home-bg-7.jpeg"); /* Replace with your image path */
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: top center;
+  background-position: center;
 
   /* opacity: 0.1; */
   /* width: f; */

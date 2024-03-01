@@ -27,20 +27,22 @@ const Care = () => {
                 </p>
                 <p className="leading-7 ">
                   {" "}
-                  Wir bieten mehr als nur praktische Pflege – unsere
-                  Beratungspflege hilft Ihnen und Ihren Angehörigen, den
-                  Pflegealltag besser zu verstehen und zu meistern. Unsere
-                  Experten stehen bereit, um Fragen zu beantworten, Ratschläge
-                  zu geben und Unterstützung bei der Pflegeplanung zu bieten.
-                  Bei uns finden Sie einen vertrauensvollen Partner an Ihrer
-                  Seite.
+                  Unser Pflege- und Haushaltsmanagement gemäß §45b SGB XI bietet
+                  umfassende Unterstützung für Ihre häusliche Pflegesituation.
+                  Wir verstehen die Herausforderungen, die mit der Betreuung
+                  eines geliebten Menschen einhergehen, und stehen Ihnen mit
+                  professionellem Rat und praktischer Hilfe zur Seite. Von der
+                  Organisation von Pflegeleistungen bis zur Bewältigung
+                  alltäglicher Haushaltsaufgaben - unser erfahrenes Team sorgt
+                  dafür, dass Sie die notwendige Unterstützung erhalten, um Ihre
+                  Liebsten in ihrer gewohnten Umgebung bestmöglich zu versorgen.
                 </p>
               </div>
             </div>
             <Fade direction="left">
               <div className="p-2 flex justify-center my-12">
                 <img
-                  src="./images/b.webp"
+                  src="./images/HC.jpg"
                   className=" border-4 rounded-lg border-rose-500 lg:my-12 xl:my-0"
                 />
               </div>
@@ -58,7 +60,7 @@ const Care = () => {
             <Fade direction="left">
               <div className="p-2 flex justify-center">
                 <img
-                  src="./images/b.webp"
+                  src="./images/HC.jpg"
                   className="border-4 rounded-lg border-rose-500 lg:my-12 xl:my-0"
                 />
               </div>
@@ -73,13 +75,15 @@ const Care = () => {
                 </p>
                 <p className="leading-7 ">
                   {" "}
-                  Wir bieten mehr als nur praktische Pflege – unsere
-                  Beratungspflege hilft Ihnen und Ihren Angehörigen, den
-                  Pflegealltag besser zu verstehen und zu meistern. Unsere
-                  Experten stehen bereit, um Fragen zu beantworten, Ratschläge
-                  zu geben und Unterstützung bei der Pflegeplanung zu bieten.
-                  Bei uns finden Sie einen vertrauensvollen Partner an Ihrer
-                  Seite.
+                  Unser Pflege- und Haushaltsmanagement gemäß §45b SGB XI bietet
+                  umfassende Unterstützung für Ihre häusliche Pflegesituation.
+                  Wir verstehen die Herausforderungen, die mit der Betreuung
+                  eines geliebten Menschen einhergehen, und stehen Ihnen mit
+                  professionellem Rat und praktischer Hilfe zur Seite. Von der
+                  Organisation von Pflegeleistungen bis zur Bewältigung
+                  alltäglicher Haushaltsaufgaben - unser erfahrenes Team sorgt
+                  dafür, dass Sie die notwendige Unterstützung erhalten, um Ihre
+                  Liebsten in ihrer gewohnten Umgebung bestmöglich zu versorgen.
                 </p>
               </div>
             </div>
