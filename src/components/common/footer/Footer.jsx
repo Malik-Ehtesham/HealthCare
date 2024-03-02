@@ -177,9 +177,30 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <p className="text-center text-gray-100 text-xl py-5">
-        Copyright ©2023 Pfledge.com
-      </p>
+      <div className="flex flex-col md:flex-row  text-gray-100 items-center justify-center py-5">
+        <p className="text-center text-gray-100 text-lg sm:text-xl   justify-center">
+          Copyright ©2024 Pflegedienst-Malik |{" "}
+        </p>
+        <div className="flex  ">
+          <li className=" transition ease-in-out hover:-translate-y-1 hover:scale-105 duration-300  ">
+            <Link
+              to="/Datenschutz"
+              className="mx-1 underline text-lg sm:text-xl   "
+            >
+              Datenschutz |
+            </Link>
+          </li>
+
+          <li className=" transition ease-in-out hover:-translate-y-1 hover:scale-105 duration-300  ">
+            <Link
+              to="/Impressum"
+              className="mx-1 underline text-lg sm:text-xl "
+            >
+              Impressum
+            </Link>
+          </li>
+        </div>
+      </div>
     </footer>
   );
 };
